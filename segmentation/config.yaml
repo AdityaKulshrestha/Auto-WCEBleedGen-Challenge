@@ -1,0 +1,7 @@
+path: D:\Drive D\LearningML\Hackathons\IIT Jammu - AutoWCEBleedGen\segmentation\dataset
+train: train/images
+val: valid/images
+# class names
+names:
+  - 'bleeding region'
+
