@@ -1,4 +1,5 @@
-path: D:\Drive D\LearningML\Hackathons\IIT Jammu - AutoWCEBleedGen\segmentation\dataset
+#path: D:\Drive D\LearningML\Hackathons\IIT Jammu - AutoWCEBleedGen\segmentation\dataset
+path: /kaggle/working/Auto-WCEBleedGen-Challenge/segmentation/dataset
 train: train/images
 val: valid/images
 # class names
