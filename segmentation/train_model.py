@@ -15,8 +15,8 @@ parser.add_argument('--imgsz')
 
 args = parser.parse_args()
 config_path = args.config_path
-epochs = args.epochs
-image_size = args.imgsz
+epochs = int(args.epochs)
+image_size = int(args.imgsz)
 
 results = train_model(config_path, epochs, image_size)
 print(results)
